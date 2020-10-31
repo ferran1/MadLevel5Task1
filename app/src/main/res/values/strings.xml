@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MadLevel5Task1</string>
+    <string name="app_name">Mad Level 5 Task 1</string>
 
     <string name="page_title">My Notepad</string>
     <string name="last_updated_date">Last updated: %1$s</string>

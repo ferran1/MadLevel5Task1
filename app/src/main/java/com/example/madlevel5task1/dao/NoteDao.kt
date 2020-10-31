@@ -10,6 +10,7 @@ import com.example.madlevel5task1.model.Note
 @Dao
 interface NoteDao {
 
+    // LIMIT 1 means that we only will get one note from the database
     @Query("SELECT * FROM noteTable LIMIT 1")
     fun getNotepad(): LiveData<Note?>
 

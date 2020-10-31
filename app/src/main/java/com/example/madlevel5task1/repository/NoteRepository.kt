@@ -15,6 +15,7 @@ class NoteRepository(context: Context) {
         noteDao = database!!.noteDao()
     }
 
+    // We don't have to use suspend for coroutine with this method because we return a wrapped Note inside a LiveData object so it will automatically operate in a background thread
     fun getNotepad(): LiveData<Note?> {
         return noteDao.getNotepad()
     }
