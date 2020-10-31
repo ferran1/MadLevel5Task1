@@ -33,9 +33,9 @@ class NotepadFragment : Fragment() {
 
         observeAddNoteResult()
 
-//        view.findViewById<Button>(R.id.button_first).setOnClickListener {
-//            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-//        }
+        fab.setOnClickListener {
+            findNavController().navigate(R.id.action_notepadFragment_to_addNoteFragment)
+        }
     }
 
     // Responsible for initializing the viewmodels and setting up the observer

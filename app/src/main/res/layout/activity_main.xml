@@ -6,17 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/Theme.MadLevel5Task1.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/Theme.MadLevel5Task1.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
